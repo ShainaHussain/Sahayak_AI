@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Parent Portal — School ERP</title>
+<style>
+  :root {
+    --paper: #f4f1ea;
+    --panel: #ffffff;
+    --ink: #2b2a27;
+    --ink-soft: #6b675f;
+    --line: #e2ddd0;
+    --accent: #C9A05C;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: 'Segoe UI', system-ui, sans-serif;
+    background: var(--paper);
+    color: var(--ink);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  .card {
+    background: var(--panel);
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    max-width: 480px;
+    width: 100%;
+    padding: 40px 36px;
+    text-align: center;
+  }
+  .badge {
+    width: 56px; height: 56px; border-radius: 50%;
+    background: var(--accent); color: #fff;
+    display: flex; align-items: center; justify-content: center;
+    font-weight: 600; font-size: 20px;
+    margin: 0 auto 18px;
+  }
+  h1 { font-size: 22px; margin: 0 0 8px; }
+  p.sub { color: var(--ink-soft); font-size: 14px; margin: 0 0 28px; line-height: 1.5; }
+  a.enter-btn {
+    display: inline-block;
+    background: var(--accent); color: #fff;
+    text-decoration: none;
+    padding: 12px 28px;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 600;
+  }
+  .note {
+    margin-top: 22px;
+    font-size: 12px;
+    color: var(--ink-soft);
+    line-height: 1.5;
+  }
+</style>
+</head>
+<body>
+  <div class="card">
+    <div class="badge">P</div>
+    <h1>Parent Portal</h1>
+    <p class="sub">
+      Check your child's attendance, message the school, and get support — through XYZ AI,
+      your role-aware school assistant.
+    </p>
+    <a class="enter-btn" href="http://localhost:5173">Enter via XYZ AI Assistant →</a>
+    <p class="note">
+      Role-specific access for parents is handled by XYZ AI's role-based
+      authentication and permissions layer.
+    </p>
+  </div>
+</body>
+</html>
